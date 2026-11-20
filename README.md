@@ -1,16 +1,26 @@
-# React + Vite
+# Quizzical — Trivia Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive multiple-choice trivia quiz web application built with **React** and **Vite**, powered by an external trivia API and deployed on **GitHub Pages**.
 
-Currently, two official plugins are available:
+- **Live Demo:** https://nangkyalsinthwe.github.io/Quizzical_app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Dynamic Trivia Questions:** Fetches randomized multiple-choice questions from an external trivia API.
+- **Interactive Answer Selection:** Allows users to select one option per question before submitting.
+- **Instant Score Checking:** Highlights correct and incorrect answers and displays the total score.
+- **Replayable Rounds:** Lets players start a fresh quiz round with new questions at any time.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React, JavaScript (ES6+), HTML5, CSS3
+- **Build Tool:** Vite
+- **API:** External Trivia REST API (`fetch`)
+- **Deployment:** GitHub Pages & GitHub Actions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started (Run Locally)
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/nangkyalsinthwe/Quizzical_app.git](https://github.com/nangkyalsinthwe/Quizzical_app.git)
+   cd Quizzical_app
